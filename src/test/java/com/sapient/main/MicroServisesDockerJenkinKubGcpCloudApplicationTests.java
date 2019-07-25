@@ -1,4 +1,4 @@
-package com.sapient.controller;
+package com.sapient.main;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
