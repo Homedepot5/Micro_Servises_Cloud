@@ -1,4 +1,4 @@
-package com.sapient.Micro_Servises_Docker_Jenkin_Kub_GCPCloud;
+package com.sapient.controller;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
