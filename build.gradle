@@ -5,6 +5,7 @@ buildscript {
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:2.1.6.RELEASE")
+
 	}
 }
 apply plugin: 'java'
@@ -28,8 +29,10 @@ repositories {
 }
 
 dependencies {
+	compile("org.springframework.boot:spring-boot-starter-actuator")
 	compile("org.springframework.boot:spring-boot-starter-web")
 	testCompile("junit:junit")
+	testCompile("org.springframework.boot:spring-boot-starter-test")
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

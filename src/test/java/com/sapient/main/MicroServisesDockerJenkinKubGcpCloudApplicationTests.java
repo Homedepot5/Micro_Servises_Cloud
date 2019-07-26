@@ -11,6 +11,7 @@ public class MicroServisesDockerJenkinKubGcpCloudApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println("Principle");
 	}
 
 }
