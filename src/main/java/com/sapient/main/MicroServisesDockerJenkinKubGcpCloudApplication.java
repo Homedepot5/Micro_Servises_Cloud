@@ -26,8 +26,7 @@ public class MicroServisesDockerJenkinKubGcpCloudApplication {
                 System.out.println(beanName);
             }
         };
+
     }
-
-
 
 }
